@@ -7,6 +7,7 @@
 
 import SwiftUI
 import RealityKit
+import SceneKit
 
 struct ContentView : View {
     var body: some View {
@@ -20,6 +21,8 @@ struct ARViewContainer: UIViewRepresentable {
         
         let arView = ARView(frame: .zero)
         
+        arView.debugOptions = [ARView.DebugOptions.showWorldOrigin,
+                               ARView.DebugOptions.showFeaturePoints]
         // Load the "Box" scene from the "Experience" Reality File
         let boxAnchor = try! Experience.loadBox()
         
@@ -31,6 +34,7 @@ struct ARViewContainer: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: ARView, context: Context) {}
+    
     
 }
 
