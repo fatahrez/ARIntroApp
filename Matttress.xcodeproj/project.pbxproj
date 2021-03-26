@@ -15,6 +15,7 @@
 		833ADC6925FD829600C6AF0D /* MatttressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833ADC6825FD829600C6AF0D /* MatttressTests.swift */; };
 		833ADC7425FD829600C6AF0D /* MatttressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833ADC7325FD829600C6AF0D /* MatttressUITests.swift */; };
 		83C187BD260675D8006879F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C187BC260675D8006879F8 /* ViewController.swift */; };
+		83CF501B260E6E9600743CDC /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CF501A260E6E9600743CDC /* Scan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		833ADC7325FD829600C6AF0D /* MatttressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatttressUITests.swift; sourceTree = "<group>"; };
 		833ADC7525FD829600C6AF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83C187BC260675D8006879F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83CF501A260E6E9600743CDC /* Scan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				833ADC5F25FD829600C6AF0D /* Info.plist */,
 				833ADC5C25FD829600C6AF0D /* Preview Content */,
 				83C187BC260675D8006879F8 /* ViewController.swift */,
+				83CF501A260E6E9600743CDC /* Scan.swift */,
 			);
 			path = Matttress;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				833ADC5725FD829500C6AF0D /* ContentView.swift in Sources */,
+				83CF501B260E6E9600743CDC /* Scan.swift in Sources */,
 				833ADC5525FD829500C6AF0D /* AppDelegate.swift in Sources */,
 				83C187BD260675D8006879F8 /* ViewController.swift in Sources */,
 				833ADC5925FD829500C6AF0D /* Experience.rcproject in Sources */,
