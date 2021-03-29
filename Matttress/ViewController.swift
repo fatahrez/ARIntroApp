@@ -59,7 +59,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate, UI
         }
     }
     
-    var instructionVisible: Bool = true {
+    var instructionsVisible: Bool = true {
         didSet {
             instructionView.isHidden = !instructionVisible
             toggleInstructionsButton.toggledOn = instructionVisible
