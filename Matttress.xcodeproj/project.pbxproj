@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8316E0FA26129109005C5332 /* FlashlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8316E0F926129109005C5332 /* FlashlightButton.swift */; };
+		8316E0FF2612944E005C5332 /* MessageLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8316E0FE2612944E005C5332 /* MessageLabel.swift */; };
+		8316E10426129704005C5332 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8316E10326129704005C5332 /* RoundedButton.swift */; };
 		833ADC5525FD829500C6AF0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833ADC5425FD829500C6AF0D /* AppDelegate.swift */; };
 		833ADC6925FD829600C6AF0D /* MatttressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833ADC6825FD829600C6AF0D /* MatttressTests.swift */; };
 		833ADC7425FD829600C6AF0D /* MatttressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833ADC7325FD829600C6AF0D /* MatttressUITests.swift */; };
@@ -43,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8316E0F926129109005C5332 /* FlashlightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashlightButton.swift; sourceTree = "<group>"; };
+		8316E0FE2612944E005C5332 /* MessageLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageLabel.swift; sourceTree = "<group>"; };
+		8316E10326129704005C5332 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		833ADC5125FD829500C6AF0D /* Matttress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matttress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		833ADC5425FD829500C6AF0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		833ADC5F25FD829600C6AF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -92,9 +98,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8316E0F8261290EA005C5332 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8316E0F926129109005C5332 /* FlashlightButton.swift */,
+				8316E0FE2612944E005C5332 /* MessageLabel.swift */,
+				8316E10326129704005C5332 /* RoundedButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		833ADC4825FD829500C6AF0D = {
 			isa = PBXGroup;
 			children = (
+				8316E0F8261290EA005C5332 /* Views */,
 				83937E9226128D6100C5A593 /* Storyboards */,
 				83937E822612803600C5A593 /* Gesture Recognizers */,
 				833ADC5325FD829500C6AF0D /* Matttress */,
@@ -306,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83937E7E26127A0F00C5A593 /* ViewController+SessionInfo.swift in Sources */,
+				8316E10426129704005C5332 /* RoundedButton.swift in Sources */,
 				83CF501B260E6E9600743CDC /* Scan.swift in Sources */,
 				833ADC5525FD829500C6AF0D /* AppDelegate.swift in Sources */,
 				83CF5031260F357700743CDC /* TestRun.swift in Sources */,
@@ -313,10 +331,12 @@
 				83937E89261285D000C5A593 /* ThresholdPinchGestureRecognizer.swift in Sources */,
 				83937E792612765900C5A593 /* ViewController+NavigationBar.swift in Sources */,
 				83CF5036260F483900743CDC /* ViewController+ApplicationState.swift in Sources */,
+				8316E0FF2612944E005C5332 /* MessageLabel.swift in Sources */,
 				83CF5020260F2FB400743CDC /* ShareScanViewController.swift in Sources */,
 				83C187BD260675D8006879F8 /* ViewController.swift in Sources */,
 				83937E842612806C00C5A593 /* ThresholdPanGestureRecognizer.swift in Sources */,
 				83937E8E2612896D00C5A593 /* ThresholdRotationGestureRecognizer.swift in Sources */,
+				8316E0FA26129109005C5332 /* FlashlightButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,7 +510,6 @@
 		833ADC7925FD829600C6AF0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Matttress/Preview Content\"";
@@ -511,7 +530,6 @@
 		833ADC7A25FD829600C6AF0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Matttress/Preview Content\"";
