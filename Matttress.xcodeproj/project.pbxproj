@@ -10,6 +10,7 @@
 		8316E0FA26129109005C5332 /* FlashlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8316E0F926129109005C5332 /* FlashlightButton.swift */; };
 		8316E0FF2612944E005C5332 /* MessageLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8316E0FE2612944E005C5332 /* MessageLabel.swift */; };
 		8316E10426129704005C5332 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8316E10326129704005C5332 /* RoundedButton.swift */; };
+		8316E10A261299A4005C5332 /* ARCameraTrackingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8316E109261299A4005C5332 /* ARCameraTrackingState.swift */; };
 		833ADC5525FD829500C6AF0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833ADC5425FD829500C6AF0D /* AppDelegate.swift */; };
 		833ADC6925FD829600C6AF0D /* MatttressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833ADC6825FD829600C6AF0D /* MatttressTests.swift */; };
 		833ADC7425FD829600C6AF0D /* MatttressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833ADC7325FD829600C6AF0D /* MatttressUITests.swift */; };
@@ -49,6 +50,7 @@
 		8316E0F926129109005C5332 /* FlashlightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashlightButton.swift; sourceTree = "<group>"; };
 		8316E0FE2612944E005C5332 /* MessageLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageLabel.swift; sourceTree = "<group>"; };
 		8316E10326129704005C5332 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		8316E109261299A4005C5332 /* ARCameraTrackingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCameraTrackingState.swift; sourceTree = "<group>"; };
 		833ADC5125FD829500C6AF0D /* Matttress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matttress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		833ADC5425FD829500C6AF0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		833ADC5F25FD829600C6AF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -108,9 +110,18 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		8316E1082612997F005C5332 /* Utility Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8316E109261299A4005C5332 /* ARCameraTrackingState.swift */,
+			);
+			path = "Utility Extensions";
+			sourceTree = "<group>";
+		};
 		833ADC4825FD829500C6AF0D = {
 			isa = PBXGroup;
 			children = (
+				8316E1082612997F005C5332 /* Utility Extensions */,
 				8316E0F8261290EA005C5332 /* Views */,
 				83937E9226128D6100C5A593 /* Storyboards */,
 				83937E822612803600C5A593 /* Gesture Recognizers */,
@@ -328,6 +339,7 @@
 				833ADC5525FD829500C6AF0D /* AppDelegate.swift in Sources */,
 				83CF5031260F357700743CDC /* TestRun.swift in Sources */,
 				83937E742612706800C5A593 /* ViewController+Gestures.swift in Sources */,
+				8316E10A261299A4005C5332 /* ARCameraTrackingState.swift in Sources */,
 				83937E89261285D000C5A593 /* ThresholdPinchGestureRecognizer.swift in Sources */,
 				83937E792612765900C5A593 /* ViewController+NavigationBar.swift in Sources */,
 				83CF5036260F483900743CDC /* ViewController+ApplicationState.swift in Sources */,
