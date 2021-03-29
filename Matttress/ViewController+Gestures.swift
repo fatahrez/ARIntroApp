@@ -25,7 +25,7 @@ extension ViewController: UIGestureRecognizerDelegate {
         instructionsVisible = false
     }
     
-    @IBAction func didTwoFingerPan(_ gesture: ThresholdPanGesturerecognizer) {
+    @IBAction func didTwoFingerPan(_ gesture: ThresholdPanGestureRecognizer) {
         if state == .scanning {
             scan?.didTwoFingerPan(gesture)
         }

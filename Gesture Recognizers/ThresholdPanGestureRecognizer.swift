@@ -32,7 +32,7 @@ class ThresholdPanGestureRecognizer: UIPanGestureRecognizer {
             default:
                 // Reset variables.
                 isThresholdExceeded = false
-                initialLocation = NZERO
+                initialLocation = .zero
             }
         }
     }
@@ -45,7 +45,7 @@ class ThresholdPanGestureRecognizer: UIPanGestureRecognizer {
         if let viewController = ViewController.instance, let object = viewController.scan?.objectToManipulate {
             let objectPos = viewController.sceneView.projectPoint(object.worldPosition)
             offsetToObject.x = CGFloat(objectPos.x) - initialLocation.x
-            offsetToObject.y = CGFloat(objectPos.y) -initialLocation.y
+            offsetToObject.y = CGFloat(objectPos.y) - initialLocation.y
         }
     }
     

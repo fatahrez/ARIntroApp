@@ -16,6 +16,8 @@
 		83937E842612806C00C5A593 /* ThresholdPanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83937E832612806C00C5A593 /* ThresholdPanGestureRecognizer.swift */; };
 		83937E89261285D000C5A593 /* ThresholdPinchGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83937E88261285D000C5A593 /* ThresholdPinchGestureRecognizer.swift */; };
 		83937E8E2612896D00C5A593 /* ThresholdRotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83937E8D2612896D00C5A593 /* ThresholdRotationGestureRecognizer.swift */; };
+		83937E9626128DA500C5A593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83937E9426128DA500C5A593 /* LaunchScreen.storyboard */; };
+		83937E9C26128E5A00C5A593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83937E9A26128E5A00C5A593 /* Main.storyboard */; };
 		83C187BD260675D8006879F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C187BC260675D8006879F8 /* ViewController.swift */; };
 		83CF501B260E6E9600743CDC /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CF501A260E6E9600743CDC /* Scan.swift */; };
 		83CF5020260F2FB400743CDC /* ShareScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CF501F260F2FB400743CDC /* ShareScanViewController.swift */; };
@@ -56,6 +58,8 @@
 		83937E832612806C00C5A593 /* ThresholdPanGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdPanGestureRecognizer.swift; sourceTree = "<group>"; };
 		83937E88261285D000C5A593 /* ThresholdPinchGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdPinchGestureRecognizer.swift; sourceTree = "<group>"; };
 		83937E8D2612896D00C5A593 /* ThresholdRotationGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdRotationGestureRecognizer.swift; sourceTree = "<group>"; };
+		83937E9526128DA500C5A593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83937E9B26128E5A00C5A593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		83C187BC260675D8006879F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83CF501A260E6E9600743CDC /* Scan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scan.swift; sourceTree = "<group>"; };
 		83CF501F260F2FB400743CDC /* ShareScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareScanViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 		833ADC4825FD829500C6AF0D = {
 			isa = PBXGroup;
 			children = (
+				83937E9226128D6100C5A593 /* Storyboards */,
 				83937E822612803600C5A593 /* Gesture Recognizers */,
 				833ADC5325FD829500C6AF0D /* Matttress */,
 				833ADC6725FD829600C6AF0D /* MatttressTests */,
@@ -152,6 +157,23 @@
 				83937E8D2612896D00C5A593 /* ThresholdRotationGestureRecognizer.swift */,
 			);
 			path = "Gesture Recognizers";
+			sourceTree = "<group>";
+		};
+		83937E9226128D6100C5A593 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				83937E9326128D7B00C5A593 /* Base.lproj */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		83937E9326128D7B00C5A593 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				83937E9426128DA500C5A593 /* LaunchScreen.storyboard */,
+				83937E9A26128E5A00C5A593 /* Main.storyboard */,
+			);
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +279,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83937E9626128DA500C5A593 /* LaunchScreen.storyboard in Resources */,
+				83937E9C26128E5A00C5A593 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +350,25 @@
 			targetProxy = 833ADC7025FD829600C6AF0D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83937E9426128DA500C5A593 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83937E9526128DA500C5A593 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		83937E9A26128E5A00C5A593 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83937E9B26128E5A00C5A593 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		833ADC7625FD829600C6AF0D /* Debug */ = {
