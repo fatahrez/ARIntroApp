@@ -14,6 +14,7 @@
 		83937E792612765900C5A593 /* ViewController+NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83937E782612765900C5A593 /* ViewController+NavigationBar.swift */; };
 		83937E7E26127A0F00C5A593 /* ViewController+SessionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83937E7D26127A0F00C5A593 /* ViewController+SessionInfo.swift */; };
 		83937E842612806C00C5A593 /* ThresholdPanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83937E832612806C00C5A593 /* ThresholdPanGestureRecognizer.swift */; };
+		83937E89261285D000C5A593 /* ThresholdPinchGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83937E88261285D000C5A593 /* ThresholdPinchGestureRecognizer.swift */; };
 		83C187BD260675D8006879F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C187BC260675D8006879F8 /* ViewController.swift */; };
 		83CF501B260E6E9600743CDC /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CF501A260E6E9600743CDC /* Scan.swift */; };
 		83CF5020260F2FB400743CDC /* ShareScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CF501F260F2FB400743CDC /* ShareScanViewController.swift */; };
@@ -52,6 +53,7 @@
 		83937E782612765900C5A593 /* ViewController+NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+NavigationBar.swift"; sourceTree = "<group>"; };
 		83937E7D26127A0F00C5A593 /* ViewController+SessionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+SessionInfo.swift"; sourceTree = "<group>"; };
 		83937E832612806C00C5A593 /* ThresholdPanGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdPanGestureRecognizer.swift; sourceTree = "<group>"; };
+		83937E88261285D000C5A593 /* ThresholdPinchGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdPinchGestureRecognizer.swift; sourceTree = "<group>"; };
 		83C187BC260675D8006879F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83CF501A260E6E9600743CDC /* Scan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scan.swift; sourceTree = "<group>"; };
 		83CF501F260F2FB400743CDC /* ShareScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareScanViewController.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				83937E832612806C00C5A593 /* ThresholdPanGestureRecognizer.swift */,
+				83937E88261285D000C5A593 /* ThresholdPinchGestureRecognizer.swift */,
 			);
 			path = "Gesture Recognizers";
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				833ADC5525FD829500C6AF0D /* AppDelegate.swift in Sources */,
 				83CF5031260F357700743CDC /* TestRun.swift in Sources */,
 				83937E742612706800C5A593 /* ViewController+Gestures.swift in Sources */,
+				83937E89261285D000C5A593 /* ThresholdPinchGestureRecognizer.swift in Sources */,
 				83937E792612765900C5A593 /* ViewController+NavigationBar.swift in Sources */,
 				83CF5036260F483900743CDC /* ViewController+ApplicationState.swift in Sources */,
 				83CF5020260F2FB400743CDC /* ShareScanViewController.swift in Sources */,
